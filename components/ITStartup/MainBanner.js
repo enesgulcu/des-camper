@@ -10,7 +10,7 @@ const MainBanner = () => {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Secure IT Solutions for a more secure environment</h1>
+									<h1>"Des Camper" Web Page Created</h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
 									
 									<Link href="/contact">
