@@ -12,7 +12,7 @@ import Feedback from "@/components/Common/Feedback";
 import Partner from "@/components/Common/Partner";
 import BlogPost from "@/components/Common/BlogPost";
 import Footer from "@/components/_App/Footer";
-
+// this page created
 const Index = () => {
     return (
         <>
