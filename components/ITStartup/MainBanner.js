@@ -18,99 +18,24 @@ const MainBanner = () => {
 									</Link>
 								</div>
 							</div>
-
+                            
 							<div className="col-lg-6 offset-lg-1">
-								<div className="banner-image">
-                                    <img 
-                                        src='/images/banner-image/man.png' 
-                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
-                                        alt="man" 
-                                    />
-                        
-                                    <img 
-                                        src="/images/banner-image/code.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
-                                        alt="code"
-                                    />
-                                
-                                    <img 
-                                        src="/images/banner-image/carpet.png" 
-                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
-                                        alt="carpet"
-                                    />
-                            
-                                    <img 
-                                        src="/images/banner-image/bin.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
-                                        alt="bin"
-                                    />
-                        
-                                    <img 
-                                        src="/images/banner-image/book.png" 
-                                        className="animate__animated animate__bounceIn animate__delay-0.1s" 
-                                        alt="book"
-                                    />
-                        
-                                    <img 
-                                        src="/images/banner-image/dekstop.png" 
-                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
-                                        alt="dekstop"
-                                    />
-                    
-                                    <img 
-                                        src="/images/banner-image/dot.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
-                                        alt="dot"
-                                    />
-                        
-                                    <img 
-                                        src="/images/banner-image/flower-top-big.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
-                                        alt="flower-top-big"
-                                    />
-                        
-                                    <img 
-                                        src="/images/banner-image/flower-top.png" 
-                                        className="animate__animated animate__rotateIn animate__delay-0.1s" 
-                                        alt="flower-top"
-                                    />
-                    
-                                    <img 
-                                        src="/images/banner-image/keyboard.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
-                                        alt="keyboard"
-                                    />
-                            
-                                    <img 
-                                        src="/images/banner-image/pen.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
-                                        alt="pen"
-                                    />
-                                
-                                    <img 
-                                        src="/images/banner-image/table.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
-                                        alt="table"
-                                    />
-                    
-                                    <img 
-                                        src="/images/banner-image/tea-cup.png" 
-                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
-                                        alt="tea-cup"
-                                    />
-                        
-                                    <img 
-                                        src="/images/banner-image/headphone.png" 
-                                        className="animate__animated animate__rollIn animate__delay-0.1" 
-                                        alt="headphone"
-                                    />
-                            
-                                    <img 
-                                        src="/images/banner-image/main-pic.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1" 
-                                        alt="main-pic"
-                                    />
-								</div>
+                                <div className='relative group w-[350px] md:w-[500px] lg:w-[600px] mx-auto'>
+
+                                    <img className='w-full' src="/images/caravan/md.png" alt="" />
+									
+										
+											<div className="hover:p-5 hover:bg-orange-500 ease-in-out duration-300 cursor-pointer animate-spin hidden md:block md:bottom-[7rem] md:left-[7rem] lg:bottom-[8rem] lg:left-[8rem] absolute p-[15px] bg-green-500 border-2 border-x-black  rounded-full">
+											</div>
+											<div className='w-[15rem] md:block md:bottom-[5rem] md:left-[1rem] lg:bottom-[6rem] lg:left-[2rem] absolute p-[10px] bg-orange-600 border-2 rounded-xl border-gray-800'><p className='text-white text-sm text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, modi natus sint saepe</p></div>
+
+											<div className="hover:p-5 hover:bg-orange-500 ease-in-out duration-300 cursor-pointer animate-spin hidden md:block md:bottom-[11rem] md:left-[7.2rem] lg:bottom-[14rem] lg:left-[9rem] absolute p-[15px] w-fit bg-green-600 border-2 border-x-black  rounded-full"></div>
+											<div className="hover:p-5 hover:bg-orange-500 ease-in-out duration-300 cursor-pointer animate-spin hidden md:block md:bottom-[7.5rem] md:left-[23.5rem] lg:bottom-[9rem] lg:left-[29rem] absolute p-[15px] w-fit bg-green-600 border-2 border-x-black  rounded-full"></div>
+											<div className="hover:p-5 hover:bg-orange-500 ease-in-out duration-300 cursor-pointer animate-spin hidden md:block md:bottom-[1rem] md:left-[22.5rem] lg:bottom-[2rem] lg:left-[27rem] absolute p-[15px] w-fit bg-green-600 border-2 border-x-black  rounded-full"></div>
+											<div className="hover:p-5 hover:bg-orange-500 ease-in-out duration-300 cursor-pointer animate-spin hidden md:block md:bottom-[0.2rem] md:left-[4rem] lg:bottom-[1rem] lg:left-[5rem] absolute p-[15px] w-fit bg-green-600 border-2 border-x-black  rounded-full"></div>
+										
+									
+                                </div>
 							</div>
 						</div>
 					</div>

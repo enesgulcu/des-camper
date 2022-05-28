@@ -32,5 +32,10 @@
         "sweetalert2": "^10.16.9",
         "sweetalert2-react-content": "^3.3.3"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.0.24"
+    }
 }

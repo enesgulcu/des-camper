@@ -1,3 +1,4 @@
+import '../styles/globals.css'
 import '@/public/css/bootstrap.min.css'
 import 'animate.css'
 import '@/public/css/boxicons.min.css'
