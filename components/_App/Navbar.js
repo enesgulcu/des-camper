@@ -1,6 +1,7 @@
 import React from "react"
 import Link from '@/utils/ActiveLink'
 import * as Icon from 'react-feather'
+import { BsWhatsapp } from "react-icons/bs";
 import { useSelector } from 'react-redux'
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
     return (
         <header id="header" className="headroom">
             <div className="startp-nav">
-                <div className="container">
+                <div className="container-fluid">
                     <nav className="navbar navbar-expand-md navbar-light">
                         <Link href="/it-startup">
                             <a onClick={toggleNavbar} className="navbar-brand">
@@ -55,7 +56,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Home <Icon.ChevronDown />
+                                            CAMPERS <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -125,7 +126,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            About <Icon.ChevronDown />
+                                            OCCASION <Icon.ChevronDown />
                                         </a>
                                     </Link> 
 
@@ -153,7 +154,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Pages <Icon.ChevronDown />
+                                            CONFIGURATORS <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -323,7 +324,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Shop <Icon.ChevronDown />
+                                            SERVICE <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -345,7 +346,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Blog <Icon.ChevronDown />
+                                            ABOUT <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -396,22 +397,26 @@ const Navbar = () => {
 
                                 <li className="nav-item">
                                     <Link href="/contact" activeClassName="active">
-                                        <a onClick={toggleNavbar} className="nav-link">Contact</a>
+                                        <a onClick={toggleNavbar} className="nav-link">CONTACT</a>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
 
                         <div className="others-option">
+                        {/* 
                             <Link href="/cart">
                                 <a className="cart-wrapper-btn">
                                     <Icon.ShoppingCart /> 
                                     <span>{cart.length}</span>
                                 </a>
                             </Link>
+                        */}
 
-                            <Link href="/contact">
-							    <a className="btn btn-light">Support</a>
+                            <Link href="https://wa.me/31682545600">
+							    <a className="btn btn-light group">
+                                <BsWhatsapp size={24} className="text-green-600 group-hover:text-white duration-300"/>
+                                </a>
                             </Link>
 
                             <Link href="/login">

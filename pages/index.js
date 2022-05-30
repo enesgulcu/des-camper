@@ -18,9 +18,9 @@ const Index = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Features />
             <ServicesArea />
-            <OurFeatures />
+            <Features />
+            <OurFeatures />            
             <Team />
             <FunFactsArea />
             <RecentWorks />

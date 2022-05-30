@@ -870,7 +870,7 @@ Main Banner CSS
 =================================================*/
 .main-banner {
   position: relative;
-  height: 910px;
+  height: 590px;
   z-index: 1;
   background: transparent url(/images/banner-bg1.jpg) right top no-repeat;
 }
@@ -1380,7 +1380,6 @@ Boxes CSS
 .boxes-area {
   position: relative;
   padding-bottom: 80px;
-  margin-top: -130px;
   z-index: 1;
 }
 
